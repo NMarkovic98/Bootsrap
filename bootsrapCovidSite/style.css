@@ -1,0 +1,290 @@
+
+body,html{
+   height:100%;
+   scroll-behavior: smooth;
+    
+}
+button.navbar-toggler{
+    background-color: white;
+}
+.nav-color{
+    background-color:rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.nav-fixed{
+    position:fixed;
+    width: 100%;
+}
+.color1{
+    color:white;
+}
+header{
+  
+    height: 100%;
+    background-image: url(hero.jpg);
+    background-repeat:no-repeat;
+    background-size:1364px 800px;
+    
+   
+}
+.ContainerContent{
+    padding-top:280px;
+    padding-left:200px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ContainerContent{
+        padding-left: 40px;
+    }
+}
+
+
+.RowContent{
+ 
+    width:200px;
+    height:200px;
+    margin-left:40px;
+    display: inline;
+    color:white;
+    
+    
+}
+.RowContent h1{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.RowContent h2{
+    margin-bottom: 15px;
+}
+.RowContent button{
+    background-color: crimson;
+    color:white;
+    border-color:white ;
+
+}
+.RowContent button:hover{
+    transition: ease-in-out 0.5s;
+    background-color:white;
+    color:crimson;
+    border-color: crimson;
+}
+.RowContent button:focus{
+    background-color:red;
+    box-shadow: none;
+    color: white;
+}
+.nav-right{
+    margin-right:150px;
+}
+.nav-left{
+    margin-left: 20px;
+}
+.rowRight{
+padding-left: 20px;
+margin-right: 0px;
+margin-bottom: 15px;;
+}
+.card{
+    margin-bottom: 10px;
+    width: 12rem;
+}
+.card p{
+  font-size: 12px;  
+}
+
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.nav-padding{
+    padding-left:150px;
+}
+
+
+#Statistika{
+    padding: 40px 0 60px 0;
+    height: 100%;
+    background:linear-gradient(black,black);
+}
+.statistika-items{
+   text-align: center;
+   background-color: red;
+   border-right: 1px solid white;
+   color: white;
+   z-index: 1;
+   margin-bottom: 40px;
+  
+ 
+}
+.statistika-items1{
+    background-color: white;
+    color:red;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 40px;
+   
+}
+#map{
+  height: auto;
+  width: 100%;
+  
+}
+#map img{
+    width:100%;
+    height: auto;
+}
+#Oprema{
+height: auto;
+margin-bottom: 0;
+
+
+}
+#Oprema h1{
+    color:black;
+}
+#Oprema .card{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#Oprema1{
+    height: auto;
+    
+    background-color: black;
+    
+    }
+    #Oprema1 h1{
+        color:white;
+        padding-left: 0;
+    }
+    #Oprema1 .card{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+ .traka{
+     background-color: black;
+ }  
+ .traka1{
+    background-color:whitesmoke; 
+ } 
+
+
+ .statistika-items1 h1{
+    padding-top: 5px;
+}
+.statistika-items1 h3{
+padding-top: 5px;
+}
+.statistika-items1 p{
+    font-weight: bolder;
+color:black;
+}
+.row-width{
+width: 100%;
+margin:0;
+z-index: 1;
+}
+#oVirusu{
+    height: 100%;
+    background-color: black;
+    padding:20px 0 60px 60px;
+}
+footer{
+    background-color: white;
+    color: black;
+   
+    padding-top: 20px;
+    }
+
+@media only screen and (max-width: 768px){
+   #Statistika{
+       padding-top: 120px;
+   }
+   .statistika-items{
+       margin-bottom: 5px;
+   }
+   .statistika-items1{
+       margin-bottom: 5px;
+   }
+   .statistika-items h1{
+        font-size: 20px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .statistika-items h3{
+        font-size: 18px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .statistika-items p{
+        font-size: 12px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .statistika-items1 h1{
+        padding-top: 5px;
+        font-size: 20px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .statistika-items1 h3{
+    padding-top: 5px;
+    font-size:18px;
+    margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .statistika-items1 p{
+        font-weight: bolder;
+    color:black;
+    font-size: 12px;
+    margin-bottom: 1px;
+        margin-top: 1px;
+    }
+    .card{
+        width:100%;
+    }
+    #oVirusu{
+        padding-top:300px;
+        height: 300%;
+    }
+}
+   
+@media only screen and (min-width: 1000px){
+    #Statistika{
+        padding-top: 150px;
+
+    }
+    .statistika-items{
+        margin-bottom: 60px;
+    }
+    .rowRight{
+       margin-top: 10px;
+    padding-left: 20px;
+margin-right: 0px;
+margin-bottom: 0px;
+
+
+}
+.card{
+    width: 16rem;
+}
+}
+@media only screen and (max-width: 575px){
+
+#oVirusu{
+    padding-top: 10px;
+    height: 350%;
+}
+}
+
+
+
